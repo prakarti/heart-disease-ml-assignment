@@ -60,7 +60,7 @@ The following classification models were implemented:
 | Logistic Regression | Provided strong overall performance with high recall and AUC. Balanced and interpretable model.  |
 | Decision Tree       | Good recall but lower overall stability. Shows signs of overfitting compared to ensemble models. |
 | KNN                 | Moderate performance. Sensitive to feature scaling and dataset size.                             |
-| Naive Bayes         | Comparatively lower performance due to independence assumptions.                                 |
+| Naive Bayes         | Naive Bayes showed comparatively lower performance than other models assumptions.                |
 | Random Forest       | Strong ensemble performance with improved stability and higher AUC.                              |
 | XGBoost             | High performance with strong recall and AUC. Boosting improves classification robustness.        |
 
