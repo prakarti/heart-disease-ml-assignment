@@ -5,6 +5,13 @@ import numpy as np
 st.set_page_config(page_title="Heart Disease Classification", layout="wide")
 
 st.title("Heart Disease Classification Models")
+
+st.info("You can download a sample test dataset below if needed.")
+
+st.markdown(
+    "[⬇ Download Sample Test Data](https://raw.githubusercontent.com/prakarti/heart-disease-ml-assignment/main/heart_disease_cleaned.csv)"
+)
+
 st.write("Upload the dataset and evaluate different ML models")
 
 # Sidebar: File upload
@@ -22,6 +29,7 @@ if uploaded_file is not None:
 else:
     st.info("Please upload the heart disease CSV file to proceed.")
     st.stop()
+
 
 
 
